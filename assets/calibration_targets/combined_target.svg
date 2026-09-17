@@ -1,0 +1,226 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="297.0mm" height="210.0mm"
+     viewBox="0 0 297.0 210.0">
+  <defs>
+    <marker id="ax" markerWidth="4" markerHeight="3" refX="4" refY="1.5" orient="auto"><polygon points="0 0,4 1.5,0 3" fill="red"/></marker>
+    <marker id="ay" markerWidth="4" markerHeight="3" refX="4" refY="1.5" orient="auto"><polygon points="0 0,4 1.5,0 3" fill="blue"/></marker>
+  </defs>
+  <rect width="297.0" height="210.0" fill="white"/>
+  <!-- Triangle 1: L1 top, L2 hyp -->
+  <polygon points="28.500,15.000 268.500,15.000 28.500,75.000" fill="black"/>
+  <!-- Triangle 2: L3 top, L4 hyp -->
+  <polygon points="28.500,75.000 268.500,75.000 28.500,135.000" fill="black"/>
+  <!-- Triangle 3: L5 top, L6 hyp -->
+  <polygon points="28.500,135.000 268.500,135.000 28.500,195.000" fill="black"/>
+  <!-- ArUco ID 0 -->
+  <g id="aruco_0">
+    <rect x="5.000" y="5.000" width="20.000" height="20.000" fill="white"/>
+    <rect x="5.000" y="5.000" width="2.500" height="2.500" fill="black"/>
+    <rect x="7.500" y="5.000" width="2.500" height="2.500" fill="black"/>
+    <rect x="10.000" y="5.000" width="2.500" height="2.500" fill="black"/>
+    <rect x="12.500" y="5.000" width="2.500" height="2.500" fill="black"/>
+    <rect x="15.000" y="5.000" width="2.500" height="2.500" fill="black"/>
+    <rect x="17.500" y="5.000" width="2.500" height="2.500" fill="black"/>
+    <rect x="20.000" y="5.000" width="2.500" height="2.500" fill="black"/>
+    <rect x="22.500" y="5.000" width="2.500" height="2.500" fill="black"/>
+    <rect x="5.000" y="7.500" width="2.500" height="2.500" fill="black"/>
+    <rect x="7.500" y="7.500" width="2.500" height="2.500" fill="black"/>
+    <rect x="10.000" y="7.500" width="2.500" height="2.500" fill="black"/>
+    <rect x="12.500" y="7.500" width="2.500" height="2.500" fill="black"/>
+    <rect x="22.500" y="7.500" width="2.500" height="2.500" fill="black"/>
+    <rect x="5.000" y="10.000" width="2.500" height="2.500" fill="black"/>
+    <rect x="10.000" y="10.000" width="2.500" height="2.500" fill="black"/>
+    <rect x="12.500" y="10.000" width="2.500" height="2.500" fill="black"/>
+    <rect x="15.000" y="10.000" width="2.500" height="2.500" fill="black"/>
+    <rect x="22.500" y="10.000" width="2.500" height="2.500" fill="black"/>
+    <rect x="5.000" y="12.500" width="2.500" height="2.500" fill="black"/>
+    <rect x="12.500" y="12.500" width="2.500" height="2.500" fill="black"/>
+    <rect x="22.500" y="12.500" width="2.500" height="2.500" fill="black"/>
+    <rect x="5.000" y="15.000" width="2.500" height="2.500" fill="black"/>
+    <rect x="7.500" y="15.000" width="2.500" height="2.500" fill="black"/>
+    <rect x="15.000" y="15.000" width="2.500" height="2.500" fill="black"/>
+    <rect x="17.500" y="15.000" width="2.500" height="2.500" fill="black"/>
+    <rect x="20.000" y="15.000" width="2.500" height="2.500" fill="black"/>
+    <rect x="22.500" y="15.000" width="2.500" height="2.500" fill="black"/>
+    <rect x="5.000" y="17.500" width="2.500" height="2.500" fill="black"/>
+    <rect x="7.500" y="17.500" width="2.500" height="2.500" fill="black"/>
+    <rect x="10.000" y="17.500" width="2.500" height="2.500" fill="black"/>
+    <rect x="15.000" y="17.500" width="2.500" height="2.500" fill="black"/>
+    <rect x="20.000" y="17.500" width="2.500" height="2.500" fill="black"/>
+    <rect x="22.500" y="17.500" width="2.500" height="2.500" fill="black"/>
+    <rect x="5.000" y="20.000" width="2.500" height="2.500" fill="black"/>
+    <rect x="10.000" y="20.000" width="2.500" height="2.500" fill="black"/>
+    <rect x="12.500" y="20.000" width="2.500" height="2.500" fill="black"/>
+    <rect x="20.000" y="20.000" width="2.500" height="2.500" fill="black"/>
+    <rect x="22.500" y="20.000" width="2.500" height="2.500" fill="black"/>
+    <rect x="5.000" y="22.500" width="2.500" height="2.500" fill="black"/>
+    <rect x="7.500" y="22.500" width="2.500" height="2.500" fill="black"/>
+    <rect x="10.000" y="22.500" width="2.500" height="2.500" fill="black"/>
+    <rect x="12.500" y="22.500" width="2.500" height="2.500" fill="black"/>
+    <rect x="15.000" y="22.500" width="2.500" height="2.500" fill="black"/>
+    <rect x="17.500" y="22.500" width="2.500" height="2.500" fill="black"/>
+    <rect x="20.000" y="22.500" width="2.500" height="2.500" fill="black"/>
+    <rect x="22.500" y="22.500" width="2.500" height="2.500" fill="black"/>
+  </g>
+  <text x="15.0" y="29.0" font-family="monospace" font-size="3" text-anchor="middle" fill="#999">ID 0</text>
+  <!-- ArUco ID 1 -->
+  <g id="aruco_1">
+    <rect x="272.000" y="5.000" width="20.000" height="20.000" fill="white"/>
+    <rect x="272.000" y="5.000" width="2.500" height="2.500" fill="black"/>
+    <rect x="274.500" y="5.000" width="2.500" height="2.500" fill="black"/>
+    <rect x="277.000" y="5.000" width="2.500" height="2.500" fill="black"/>
+    <rect x="279.500" y="5.000" width="2.500" height="2.500" fill="black"/>
+    <rect x="282.000" y="5.000" width="2.500" height="2.500" fill="black"/>
+    <rect x="284.500" y="5.000" width="2.500" height="2.500" fill="black"/>
+    <rect x="287.000" y="5.000" width="2.500" height="2.500" fill="black"/>
+    <rect x="289.500" y="5.000" width="2.500" height="2.500" fill="black"/>
+    <rect x="272.000" y="7.500" width="2.500" height="2.500" fill="black"/>
+    <rect x="274.500" y="7.500" width="2.500" height="2.500" fill="black"/>
+    <rect x="277.000" y="7.500" width="2.500" height="2.500" fill="black"/>
+    <rect x="279.500" y="7.500" width="2.500" height="2.500" fill="black"/>
+    <rect x="282.000" y="7.500" width="2.500" height="2.500" fill="black"/>
+    <rect x="289.500" y="7.500" width="2.500" height="2.500" fill="black"/>
+    <rect x="272.000" y="10.000" width="2.500" height="2.500" fill="black"/>
+    <rect x="277.000" y="10.000" width="2.500" height="2.500" fill="black"/>
+    <rect x="289.500" y="10.000" width="2.500" height="2.500" fill="black"/>
+    <rect x="272.000" y="12.500" width="2.500" height="2.500" fill="black"/>
+    <rect x="277.000" y="12.500" width="2.500" height="2.500" fill="black"/>
+    <rect x="287.000" y="12.500" width="2.500" height="2.500" fill="black"/>
+    <rect x="289.500" y="12.500" width="2.500" height="2.500" fill="black"/>
+    <rect x="272.000" y="15.000" width="2.500" height="2.500" fill="black"/>
+    <rect x="277.000" y="15.000" width="2.500" height="2.500" fill="black"/>
+    <rect x="279.500" y="15.000" width="2.500" height="2.500" fill="black"/>
+    <rect x="282.000" y="15.000" width="2.500" height="2.500" fill="black"/>
+    <rect x="289.500" y="15.000" width="2.500" height="2.500" fill="black"/>
+    <rect x="272.000" y="17.500" width="2.500" height="2.500" fill="black"/>
+    <rect x="277.000" y="17.500" width="2.500" height="2.500" fill="black"/>
+    <rect x="279.500" y="17.500" width="2.500" height="2.500" fill="black"/>
+    <rect x="282.000" y="17.500" width="2.500" height="2.500" fill="black"/>
+    <rect x="287.000" y="17.500" width="2.500" height="2.500" fill="black"/>
+    <rect x="289.500" y="17.500" width="2.500" height="2.500" fill="black"/>
+    <rect x="272.000" y="20.000" width="2.500" height="2.500" fill="black"/>
+    <rect x="274.500" y="20.000" width="2.500" height="2.500" fill="black"/>
+    <rect x="279.500" y="20.000" width="2.500" height="2.500" fill="black"/>
+    <rect x="282.000" y="20.000" width="2.500" height="2.500" fill="black"/>
+    <rect x="284.500" y="20.000" width="2.500" height="2.500" fill="black"/>
+    <rect x="289.500" y="20.000" width="2.500" height="2.500" fill="black"/>
+    <rect x="272.000" y="22.500" width="2.500" height="2.500" fill="black"/>
+    <rect x="274.500" y="22.500" width="2.500" height="2.500" fill="black"/>
+    <rect x="277.000" y="22.500" width="2.500" height="2.500" fill="black"/>
+    <rect x="279.500" y="22.500" width="2.500" height="2.500" fill="black"/>
+    <rect x="282.000" y="22.500" width="2.500" height="2.500" fill="black"/>
+    <rect x="284.500" y="22.500" width="2.500" height="2.500" fill="black"/>
+    <rect x="287.000" y="22.500" width="2.500" height="2.500" fill="black"/>
+    <rect x="289.500" y="22.500" width="2.500" height="2.500" fill="black"/>
+  </g>
+  <text x="282.0" y="29.0" font-family="monospace" font-size="3" text-anchor="middle" fill="#999">ID 1</text>
+  <!-- ArUco ID 2 -->
+  <g id="aruco_2">
+    <rect x="5.000" y="185.000" width="20.000" height="20.000" fill="white"/>
+    <rect x="5.000" y="185.000" width="2.500" height="2.500" fill="black"/>
+    <rect x="7.500" y="185.000" width="2.500" height="2.500" fill="black"/>
+    <rect x="10.000" y="185.000" width="2.500" height="2.500" fill="black"/>
+    <rect x="12.500" y="185.000" width="2.500" height="2.500" fill="black"/>
+    <rect x="15.000" y="185.000" width="2.500" height="2.500" fill="black"/>
+    <rect x="17.500" y="185.000" width="2.500" height="2.500" fill="black"/>
+    <rect x="20.000" y="185.000" width="2.500" height="2.500" fill="black"/>
+    <rect x="22.500" y="185.000" width="2.500" height="2.500" fill="black"/>
+    <rect x="5.000" y="187.500" width="2.500" height="2.500" fill="black"/>
+    <rect x="7.500" y="187.500" width="2.500" height="2.500" fill="black"/>
+    <rect x="10.000" y="187.500" width="2.500" height="2.500" fill="black"/>
+    <rect x="12.500" y="187.500" width="2.500" height="2.500" fill="black"/>
+    <rect x="17.500" y="187.500" width="2.500" height="2.500" fill="black"/>
+    <rect x="22.500" y="187.500" width="2.500" height="2.500" fill="black"/>
+    <rect x="5.000" y="190.000" width="2.500" height="2.500" fill="black"/>
+    <rect x="7.500" y="190.000" width="2.500" height="2.500" fill="black"/>
+    <rect x="15.000" y="190.000" width="2.500" height="2.500" fill="black"/>
+    <rect x="17.500" y="190.000" width="2.500" height="2.500" fill="black"/>
+    <rect x="22.500" y="190.000" width="2.500" height="2.500" fill="black"/>
+    <rect x="5.000" y="192.500" width="2.500" height="2.500" fill="black"/>
+    <rect x="7.500" y="192.500" width="2.500" height="2.500" fill="black"/>
+    <rect x="10.000" y="192.500" width="2.500" height="2.500" fill="black"/>
+    <rect x="12.500" y="192.500" width="2.500" height="2.500" fill="black"/>
+    <rect x="15.000" y="192.500" width="2.500" height="2.500" fill="black"/>
+    <rect x="17.500" y="192.500" width="2.500" height="2.500" fill="black"/>
+    <rect x="22.500" y="192.500" width="2.500" height="2.500" fill="black"/>
+    <rect x="5.000" y="195.000" width="2.500" height="2.500" fill="black"/>
+    <rect x="20.000" y="195.000" width="2.500" height="2.500" fill="black"/>
+    <rect x="22.500" y="195.000" width="2.500" height="2.500" fill="black"/>
+    <rect x="5.000" y="197.500" width="2.500" height="2.500" fill="black"/>
+    <rect x="10.000" y="197.500" width="2.500" height="2.500" fill="black"/>
+    <rect x="15.000" y="197.500" width="2.500" height="2.500" fill="black"/>
+    <rect x="22.500" y="197.500" width="2.500" height="2.500" fill="black"/>
+    <rect x="5.000" y="200.000" width="2.500" height="2.500" fill="black"/>
+    <rect x="7.500" y="200.000" width="2.500" height="2.500" fill="black"/>
+    <rect x="10.000" y="200.000" width="2.500" height="2.500" fill="black"/>
+    <rect x="17.500" y="200.000" width="2.500" height="2.500" fill="black"/>
+    <rect x="22.500" y="200.000" width="2.500" height="2.500" fill="black"/>
+    <rect x="5.000" y="202.500" width="2.500" height="2.500" fill="black"/>
+    <rect x="7.500" y="202.500" width="2.500" height="2.500" fill="black"/>
+    <rect x="10.000" y="202.500" width="2.500" height="2.500" fill="black"/>
+    <rect x="12.500" y="202.500" width="2.500" height="2.500" fill="black"/>
+    <rect x="15.000" y="202.500" width="2.500" height="2.500" fill="black"/>
+    <rect x="17.500" y="202.500" width="2.500" height="2.500" fill="black"/>
+    <rect x="20.000" y="202.500" width="2.500" height="2.500" fill="black"/>
+    <rect x="22.500" y="202.500" width="2.500" height="2.500" fill="black"/>
+  </g>
+  <text x="15.0" y="209.0" font-family="monospace" font-size="3" text-anchor="middle" fill="#999">ID 2</text>
+  <!-- ArUco ID 3 -->
+  <g id="aruco_3">
+    <rect x="272.000" y="185.000" width="20.000" height="20.000" fill="white"/>
+    <rect x="272.000" y="185.000" width="2.500" height="2.500" fill="black"/>
+    <rect x="274.500" y="185.000" width="2.500" height="2.500" fill="black"/>
+    <rect x="277.000" y="185.000" width="2.500" height="2.500" fill="black"/>
+    <rect x="279.500" y="185.000" width="2.500" height="2.500" fill="black"/>
+    <rect x="282.000" y="185.000" width="2.500" height="2.500" fill="black"/>
+    <rect x="284.500" y="185.000" width="2.500" height="2.500" fill="black"/>
+    <rect x="287.000" y="185.000" width="2.500" height="2.500" fill="black"/>
+    <rect x="289.500" y="185.000" width="2.500" height="2.500" fill="black"/>
+    <rect x="272.000" y="187.500" width="2.500" height="2.500" fill="black"/>
+    <rect x="279.500" y="187.500" width="2.500" height="2.500" fill="black"/>
+    <rect x="282.000" y="187.500" width="2.500" height="2.500" fill="black"/>
+    <rect x="287.000" y="187.500" width="2.500" height="2.500" fill="black"/>
+    <rect x="289.500" y="187.500" width="2.500" height="2.500" fill="black"/>
+    <rect x="272.000" y="190.000" width="2.500" height="2.500" fill="black"/>
+    <rect x="274.500" y="190.000" width="2.500" height="2.500" fill="black"/>
+    <rect x="279.500" y="190.000" width="2.500" height="2.500" fill="black"/>
+    <rect x="282.000" y="190.000" width="2.500" height="2.500" fill="black"/>
+    <rect x="284.500" y="190.000" width="2.500" height="2.500" fill="black"/>
+    <rect x="289.500" y="190.000" width="2.500" height="2.500" fill="black"/>
+    <rect x="272.000" y="192.500" width="2.500" height="2.500" fill="black"/>
+    <rect x="277.000" y="192.500" width="2.500" height="2.500" fill="black"/>
+    <rect x="284.500" y="192.500" width="2.500" height="2.500" fill="black"/>
+    <rect x="287.000" y="192.500" width="2.500" height="2.500" fill="black"/>
+    <rect x="289.500" y="192.500" width="2.500" height="2.500" fill="black"/>
+    <rect x="272.000" y="195.000" width="2.500" height="2.500" fill="black"/>
+    <rect x="279.500" y="195.000" width="2.500" height="2.500" fill="black"/>
+    <rect x="282.000" y="195.000" width="2.500" height="2.500" fill="black"/>
+    <rect x="284.500" y="195.000" width="2.500" height="2.500" fill="black"/>
+    <rect x="287.000" y="195.000" width="2.500" height="2.500" fill="black"/>
+    <rect x="289.500" y="195.000" width="2.500" height="2.500" fill="black"/>
+    <rect x="272.000" y="197.500" width="2.500" height="2.500" fill="black"/>
+    <rect x="274.500" y="197.500" width="2.500" height="2.500" fill="black"/>
+    <rect x="282.000" y="197.500" width="2.500" height="2.500" fill="black"/>
+    <rect x="287.000" y="197.500" width="2.500" height="2.500" fill="black"/>
+    <rect x="289.500" y="197.500" width="2.500" height="2.500" fill="black"/>
+    <rect x="272.000" y="200.000" width="2.500" height="2.500" fill="black"/>
+    <rect x="274.500" y="200.000" width="2.500" height="2.500" fill="black"/>
+    <rect x="287.000" y="200.000" width="2.500" height="2.500" fill="black"/>
+    <rect x="289.500" y="200.000" width="2.500" height="2.500" fill="black"/>
+    <rect x="272.000" y="202.500" width="2.500" height="2.500" fill="black"/>
+    <rect x="274.500" y="202.500" width="2.500" height="2.500" fill="black"/>
+    <rect x="277.000" y="202.500" width="2.500" height="2.500" fill="black"/>
+    <rect x="279.500" y="202.500" width="2.500" height="2.500" fill="black"/>
+    <rect x="282.000" y="202.500" width="2.500" height="2.500" fill="black"/>
+    <rect x="284.500" y="202.500" width="2.500" height="2.500" fill="black"/>
+    <rect x="287.000" y="202.500" width="2.500" height="2.500" fill="black"/>
+    <rect x="289.500" y="202.500" width="2.500" height="2.500" fill="black"/>
+  </g>
+  <text x="282.0" y="209.0" font-family="monospace" font-size="3" text-anchor="middle" fill="#999">ID 3</text>
+  <!-- Origin & axes -->
+  <circle cx="28.5" cy="15.0" r="1.5" fill="none" stroke="red" stroke-width="0.4"/>
+  <line x1="28.5" y1="15.0" x2="40.5" y2="15.0" stroke="red" stroke-width="0.3" marker-end="url(#ax)"/>
+  <text x="42.5" y="16.0" font-size="3" fill="red" font-family="serif" font-style="italic">X</text>
+  <line x1="28.5" y1="15.0" x2="28.5" y2="27.0" stroke="blue" stroke-width="0.3" marker-end="url(#ay)"/>
+  <text x="30.5" y="28.0" font-size="3" fill="blue" font-family="serif" font-style="italic">Y</text>
+</svg>

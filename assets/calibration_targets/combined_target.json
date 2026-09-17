@@ -1,0 +1,211 @@
+{
+  "description": "Combined calibration target: ArUco + Li-Wen-Qiu right-triangle pattern. Coordinates in pattern frame (mm). Origin at left end of L1. X right, Y down.",
+  "page": {
+    "width_mm": 297.0,
+    "height_mm": 210.0,
+    "orientation": "landscape"
+  },
+  "pattern_origin_svg_mm": {
+    "x": 28.5,
+    "y": 15.0
+  },
+  "aruco": {
+    "dictionary": "DICT_6X6_250",
+    "marker_size_mm": 20.0,
+    "marker_ids": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "markers": {
+      "0": {
+        "corners_mm": [
+          [
+            -23.5,
+            -10.0
+          ],
+          [
+            -3.5,
+            -10.0
+          ],
+          [
+            -3.5,
+            10.0
+          ],
+          [
+            -23.5,
+            10.0
+          ]
+        ],
+        "size_mm": 20.0
+      },
+      "1": {
+        "corners_mm": [
+          [
+            243.5,
+            -10.0
+          ],
+          [
+            263.5,
+            -10.0
+          ],
+          [
+            263.5,
+            10.0
+          ],
+          [
+            243.5,
+            10.0
+          ]
+        ],
+        "size_mm": 20.0
+      },
+      "2": {
+        "corners_mm": [
+          [
+            -23.5,
+            170.0
+          ],
+          [
+            -3.5,
+            170.0
+          ],
+          [
+            -3.5,
+            190.0
+          ],
+          [
+            -23.5,
+            190.0
+          ]
+        ],
+        "size_mm": 20.0
+      },
+      "3": {
+        "corners_mm": [
+          [
+            243.5,
+            170.0
+          ],
+          [
+            263.5,
+            170.0
+          ],
+          [
+            263.5,
+            190.0
+          ],
+          [
+            243.5,
+            190.0
+          ]
+        ],
+        "size_mm": 20.0
+      }
+    }
+  },
+  "li_wen_qiu": {
+    "hp_mm": 60.0,
+    "wp_mm": 240.0,
+    "feature_lines": {
+      "L1": {
+        "eq": [
+          0,
+          1,
+          0
+        ],
+        "type": "horizontal",
+        "y": 0
+      },
+      "L2": {
+        "eq": [
+          60.0,
+          240.0,
+          -14400.0
+        ],
+        "type": "diagonal",
+        "from": [
+          0,
+          60.0
+        ],
+        "to": [
+          240.0,
+          0
+        ]
+      },
+      "L3": {
+        "eq": [
+          0,
+          1,
+          -60.0
+        ],
+        "type": "horizontal",
+        "y": 60.0
+      },
+      "L4": {
+        "eq": [
+          60.0,
+          240.0,
+          -28800.0
+        ],
+        "type": "diagonal",
+        "from": [
+          0,
+          120.0
+        ],
+        "to": [
+          240.0,
+          60.0
+        ]
+      },
+      "L5": {
+        "eq": [
+          0,
+          1,
+          -120.0
+        ],
+        "type": "horizontal",
+        "y": 120.0
+      },
+      "L6": {
+        "eq": [
+          60.0,
+          240.0,
+          -43200.0
+        ],
+        "type": "diagonal",
+        "from": [
+          0,
+          180.0
+        ],
+        "to": [
+          240.0,
+          120.0
+        ]
+      }
+    },
+    "intersection_points_mm": {
+      "L1\u2229L2": [
+        240.0,
+        0
+      ],
+      "L3\u2229L2": [
+        0.0,
+        60.0
+      ],
+      "L3\u2229L4": [
+        240.0,
+        60.0
+      ],
+      "L5\u2229L4": [
+        0.0,
+        120.0
+      ],
+      "L5\u2229L6": [
+        240.0,
+        120.0
+      ]
+    }
+  }
+}

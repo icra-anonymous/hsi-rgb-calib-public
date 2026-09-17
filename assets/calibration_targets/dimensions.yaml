@@ -1,0 +1,49 @@
+# Calibration Target Dimensions
+#
+# Physical dimensions of the calibration target for accurate 3D reconstruction.
+# These values MUST match the actual printed/measured dimensions.
+
+target:
+  name: charuco_6x9_a4
+  
+  # Total dimensions (mm)
+  width_mm: 270    # 9 squares × 30mm
+  height_mm: 180   # 6 squares × 30mm
+  
+  # Individual element sizes (mm)
+  square_size_mm: 30.0
+  marker_size_mm: 22.5
+  
+  # Border around the pattern (mm)
+  border_mm: 15.0
+  
+  # Print scale (1.0 = 100%)
+  print_scale: 1.0
+  
+  # Units used
+  units: mm
+  
+  # Notes
+  notes: |
+    Standard 6x9 ChArUco board designed for A4 paper (210×297mm).
+    Actual pattern area is 270×180mm, fits with 15mm margins.
+    
+    IMPORTANT: After printing, measure the actual square size and update
+    this file if there is any deviation. A 1% error in square size
+    translates to 1% error in estimated distances.
+
+# Printing instructions
+printing:
+  paper_size: A4
+  orientation: landscape
+  scale: 100%
+  
+  # Recommended materials
+  substrate: |
+    Use rigid, flat material (foam board, aluminum composite).
+    Avoid paper that can buckle or curve.
+  
+  # Recommended mounting
+  mounting: |
+    Mount target on a flat, rigid backing.
+    Ensure target is planar (no warping).

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ChArUco 6x9 Board Placeholder SVG -->
+<!-- This is a simplified placeholder. For actual calibration, generate a proper board. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 270 180" width="270mm" height="180mm">
+  <title>ChArUco 6x9 Calibration Board (Placeholder)</title>
+  
+  <!-- Background -->
+  <rect width="270" height="180" fill="white"/>
+  
+  <!-- Checkerboard pattern (simplified) -->
+  <g fill="black">
+    <!-- Row 0 -->
+    <rect x="0" y="0" width="30" height="30"/>
+    <rect x="60" y="0" width="30" height="30"/>
+    <rect x="120" y="0" width="30" height="30"/>
+    <rect x="180" y="0" width="30" height="30"/>
+    <rect x="240" y="0" width="30" height="30"/>
+    
+    <!-- Row 1 -->
+    <rect x="30" y="30" width="30" height="30"/>
+    <rect x="90" y="30" width="30" height="30"/>
+    <rect x="150" y="30" width="30" height="30"/>
+    <rect x="210" y="30" width="30" height="30"/>
+    
+    <!-- Row 2 -->
+    <rect x="0" y="60" width="30" height="30"/>
+    <rect x="60" y="60" width="30" height="30"/>
+    <rect x="120" y="60" width="30" height="30"/>
+    <rect x="180" y="60" width="30" height="30"/>
+    <rect x="240" y="60" width="30" height="30"/>
+    
+    <!-- Row 3 -->
+    <rect x="30" y="90" width="30" height="30"/>
+    <rect x="90" y="90" width="30" height="30"/>
+    <rect x="150" y="90" width="30" height="30"/>
+    <rect x="210" y="90" width="30" height="30"/>
+    
+    <!-- Row 4 -->
+    <rect x="0" y="120" width="30" height="30"/>
+    <rect x="60" y="120" width="30" height="30"/>
+    <rect x="120" y="120" width="30" height="30"/>
+    <rect x="180" y="120" width="30" height="30"/>
+    <rect x="240" y="120" width="30" height="30"/>
+    
+    <!-- Row 5 -->
+    <rect x="30" y="150" width="30" height="30"/>
+    <rect x="90" y="150" width="30" height="30"/>
+    <rect x="150" y="150" width="30" height="30"/>
+    <rect x="210" y="150" width="30" height="30"/>
+  </g>
+  
+  <!-- Note: ArUco markers would be inside the white squares -->
+  <!-- This is just a placeholder - use OpenCV to generate actual board -->
+  
+  <text x="135" y="95" 
+        font-family="sans-serif" 
+        font-size="8" 
+        fill="gray"
+        text-anchor="middle">
+    PLACEHOLDER - Generate with OpenCV
+  </text>
+</svg>
