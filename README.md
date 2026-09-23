@@ -3,8 +3,10 @@
 
 
 # HSI-RGB Calibration
-
 A clean, reproducible pipeline for calibrating a rigid pushbroom hyperspectral (HSI) line-scan camera with an RGB frame camera (e.g., OAK-D).
+
+This calibration process was used to enable the following depth-aware pushbroom hyperspectral imaging results:
+
 
 
 https://github.com/user-attachments/assets/ac6191eb-0fb2-4a0c-b954-8bc1c9504b59
@@ -12,6 +14,7 @@ https://github.com/user-attachments/assets/ac6191eb-0fb2-4a0c-b954-8bc1c9504b59
 
 
 https://github.com/user-attachments/assets/add69f9b-e02b-4e5c-97a7-3b67ec970af6
+
 
 
 This repository implements the Li-Wen-Qiu method for line-scan + frame camera calibration using a custom ArUco-augmented target, centering around a two-phase script workflow.
